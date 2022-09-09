@@ -26,7 +26,7 @@ ABasePawn::ABasePawn()
 
 void ABasePawn::HandleDestruction()
 {
-	
+	//TODO Sound and Visual effects
 }
 
 void ABasePawn::RotateTurret(FVector LookAtTarget)
