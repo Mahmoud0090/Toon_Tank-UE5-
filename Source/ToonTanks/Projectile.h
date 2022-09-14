@@ -25,7 +25,9 @@ private:
 
 	UPROPERTY(VisibleAnyWhere , Category = "Movement")
 	class UProjectileMovementComponent* ProjectileMovementComponent;
-
+    
+	UPROPERTY(VisibleAnyWhere , Category = "Combat")
+	class UParticleSystemComponent* TrailParticle;
 
     UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp , AActor* OtherActor,UPrimitiveComponent* OtherComp , FVector NormalImpulse, const FHitResult&Hit);
