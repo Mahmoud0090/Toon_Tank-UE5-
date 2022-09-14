@@ -44,6 +44,9 @@ private:
 	UPROPERTY(EditAnyWhere , Category = "Combat")
 	USoundBase* HitSound;
 
+    UPROPERTY(EditAnyWhere , Category = "Combat")
+	TSubclassOf <class UCameraShakeBase> HitCameraShakeClass;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
