@@ -38,6 +38,11 @@ private:
     UPROPERTY(EditAnyWhere , Category = "Combat")
 	class UParticleSystem* HitParticles;
 
+    UPROPERTY(EditAnyWhere , Category = "Combat")
+	class USoundBase* LaunchSound;
+    
+	UPROPERTY(EditAnyWhere , Category = "Combat")
+	USoundBase* HitSound;
 
 public:	
 	// Called every frame
