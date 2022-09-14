@@ -33,6 +33,9 @@ private:
 	UPROPERTY()
 	float Damage = 50.f;
 
+    UPROPERTY(EditAnyWhere , Category = "Combat")
+	class UParticleSystem* HitParticles;
+
 
 public:	
 	// Called every frame

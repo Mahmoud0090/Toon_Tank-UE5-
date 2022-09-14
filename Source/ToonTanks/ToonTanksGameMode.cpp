@@ -33,7 +33,6 @@ void AToonTanksGameMode::BeginPlay()
 {
     Super::BeginPlay();
     HandleGameStart();
-   
 }
 void AToonTanksGameMode::HandleGameStart()
 {
